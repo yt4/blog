@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b67eb6;
+  background: #22f630;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2613,7 +2613,7 @@ pre .javascript .function {
   overflow: hidden;
   padding: 0;
   width: 240px;
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
 }
@@ -2672,7 +2672,7 @@ pre .javascript .function {
   box-sizing: border-box;
   padding: 40px;
   width: calc(100% - 252px);
-  background: #fff;
+  background: rgba(255,255,255,0.7);
   min-height: 700px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   border-radius: initial;
@@ -2697,7 +2697,7 @@ pre .javascript .function {
   float: left;
   margin-top: 300px;
   width: 240px;
-  background: #eee;
+  background: rgba(255,255,255,0.7);
   box-shadow: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2750,7 +2750,7 @@ pre .javascript .function {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #222;
+  background: rgba(21,9,45,0.788);
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
@@ -2854,7 +2854,7 @@ pre .javascript .function {
   box-sizing: border-box;
   width: 240px;
   color: #555;
-  background: #fff;
+  background: rgba(255,255,255,0.1);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   border-radius: initial;
   opacity: 0;
@@ -3127,10 +3127,35 @@ pre .javascript .function {
     margin: 8px 0 0;
   }
 }
+body {
+  background-size: cover;
+  background-image: url("https://c-ssl.duitang.com/uploads/item/201602/05/20160205221459_hTCAH.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  background: rgba(255,255,255,0.5);
+}
+.post-block {
+  background: rgba(255,255,255,0.5);
+}
+.comments {
+  background: rgba(255,255,255,0.5);
+}
+.highlight {
+  background: rgba(255,255,255,0);
+}
+.highlight {
+  color: #000;
+}
+.highlight .code pre {
+  background: transparent;
+  color: #000;
+}
+.highlight table tbody tr {
+  background: transparent;
+}
+.highlight .gutter pre {
+  background: transparent;
 }
